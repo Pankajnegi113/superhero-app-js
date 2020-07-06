@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(6, 138, 138);
+}
+
+/*main body of page, contain all data*/
+.hero-card {
+    background: #fff;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
+    display: flex;
+    width:60%;
+    position: absolute;
+    top: 20%;
+    left:20%;
+    background-color: honeydew;
+  }
+
+  /* making two sections adjacent by using flex*/
+  .hero-card .left {
+    flex: 1;
+  }
+
+  .hero-card .left img {
+    height: 500px;
+    border-radius: 5%;
+  }
+
+  .hero-card .right {
+   
+    position: relative;
+    flex: 10;
+  }
+
+  /*class common to all texts*/
+  .title{
+      font-weight: 510;
+      padding: 20px 10px;
+  }
+

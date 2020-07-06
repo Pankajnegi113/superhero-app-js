@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero Hunter</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div container="main">
+        <div class="header">
+            <div class="heroText"><i class="fab fa-gitlab"></i>&nbsp<span>SuperHeroS</span></div>
+        </div>
+    <div class="body">
+        <!--search bar code-->
+        <div id="search-hero" align="center" >
+            <input type="text" name="search" value="" id="search" placeholder="Search Your SuperHero Here.." onkeyup="fecthData(this.value)">
+            <ul class="unordered-list" id="result">
+            </ul>
+        </div>
+     
+        <!--favourite heros list-->
+        <div id="fav">
+            <h2 class="fav-text">My Favourite Heros</h2>
+            <ul id="fav-ul">
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
